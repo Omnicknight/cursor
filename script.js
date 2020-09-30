@@ -15,9 +15,8 @@ document.body.onmousedown = () => {
         excretion.id = ('excretion')
         excretion.style = `
         background: rgba(97, 166, 231, 0.247);
-        box-shadow: rgba(97, 166, 231, 0.247) 0 0 20px 10px;
+        border: solid rgb(63, 65, 196);
         position: absolute;
-        border-radius: 50px;
         width: ${50}px;
         height: ${50 }px;
         left: ${ event.pageX }px;
